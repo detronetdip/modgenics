@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+}
+.nav h4 {
+  font-size: 2.5rem;
+  color: #1c8fdb;
+}
+.nav ul {
+  list-style: none;
+  margin-left: 2rem;
+  display: flex;
+}
+.nav ul li {
+  margin: 0.5rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.hamburger {
+  margin-left: auto;
+  font-size: 2rem;
+  border: 1px solid #686868b4;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 0.3rem;
+  display: none;
+}
+.resnav {
+  padding: 0.8rem 1rem;
+  transition: 0.8s;
+  overflow: hidden;
+  cursor: pointer;
+}
+.resnav ul {
+  margin-left: 2rem;
+  list-style: none;
+  display: grid;
+  place-items: center;
+}
+.resnav ul li {
+  margin: 0.5rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.imageslide {
+  height: 30rem;
+  width: 100%;
+}
+.imageslide img {
+  height: 100%;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav ul {
+    display: none;
+  }
+  .hamburger {
+    display: flex;
+  }
+}
+.pagignation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.3rem;
+}
+
+.lnone {
+  list-style: none;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 2rem;
+}
+.pclass {
+  list-style: none;
+  margin: 0.5rem 1rem;
+  font-size: 1.4rem;
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  font-weight: 700;
+  align-items: center;
+  background-color: #f4f6f9;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.pclass:hover{
+  background-color: #dbdddf;
+}
